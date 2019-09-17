@@ -25,3 +25,5 @@ Powerups(Health Drain stops for X seconds, increase Ram damage, upgrade weapon(s
 Speed increaced for X seconds, etc.
 
 diffrent enemie types (speedster, brute, flyer, etc)
+extra life system (after X number of points the player gets an extra life (max of 3)).
+warning system(haserd lights slowly turning from white to green to yellow then finaly red whenthe difficulty isatits max)
