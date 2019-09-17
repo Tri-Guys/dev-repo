@@ -1,0 +1,27 @@
+PRIMARY GOALS!
+Game Name:Car-Nage.
+made in: Unity (2.5D).
+made for PC,  can use Controler or mouse.
+
+aesthetic: junkyard/postapocliptic / Mad Max
+gameplay: a mix between move or die and Risk of Rain
+
+Tutorial: explane controles / mechanics
+
+survival base gameplay with continuously depleating health,deffet enemies to gain health(fule) back,player Rams enemies to destroy them, 
+being hit by enemies makes health drain faster, need to pick up a rare drop to put health drain back to normal.
+
+
+enemies spawn in increacing number as time goes on (off screen).
+enemies will chace the player and try to hit the player (be a certin distance for X time befor they attack)
+
+charecter and enimies will be animated.
+
+SECONDERY GOALS!
+
+Score System (score goes up the longer you survive, deffeating enemies give a scoreboost)
+
+Powerups(Health Drain stops for X seconds, increase Ram damage, upgrade weapon(starting gun is a pistol, 2nd is a shot gun, 3rd michine gun, 4th rocket luncher),
+Speed increaced for X seconds, etc.
+
+diffrent enemie types (speedster, brute, flyer, etc)
