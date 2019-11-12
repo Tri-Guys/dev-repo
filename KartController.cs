@@ -1,21 +1,21 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using DG.Tweening;
+//using DG.Tweening;
 //using UnityEngine.Rendering.PostProcessing;
 //using Cinemachine;
 
 public class KartController : MonoBehaviour
 {
-   // private PostProcessVolume postVolume;
-   // private PostProcessProfile postProfile;
+    // private PostProcessVolume postVolume;
+    // private PostProcessProfile postProfile;
 
-    public Transform kartModel;
+    public Transform carCube;
     public Transform kartNormal;
     public Rigidbody sphere;
 
-    public List<ParticleSystem> primaryParticles = new List<ParticleSystem>();
-    public List<ParticleSystem> secondaryParticles = new List<ParticleSystem>();
+    /* public List<ParticleSystem> primaryParticles = new List<ParticleSystem>();
+    public List<ParticleSystem> secondaryParticles = new List<ParticleSystem>(); */
 
     float speed, currentSpeed;
     float rotate, currentRotate;
@@ -49,9 +49,9 @@ public class KartController : MonoBehaviour
     void Start()
     {
         //postVolume = Camera.main.GetComponent<PostProcessVolume>();
-       // postProfile = postVolume.profile;
+        // postProfile = postVolume.profile;
 
-        for (int i = 0; i < wheelParticles.GetChild(0).childCount; i++)
+       /*b for (int i = 0; i < wheelParticles.GetChild(0).childCount; i++)
         {
             primaryParticles.Add(wheelParticles.GetChild(0).GetChild(i).GetComponent<ParticleSystem>());
         }
@@ -61,19 +61,19 @@ public class KartController : MonoBehaviour
             primaryParticles.Add(wheelParticles.GetChild(1).GetChild(i).GetComponent<ParticleSystem>());
         }
 
-        foreach(ParticleSystem p in flashParticles.GetComponentsInChildren<ParticleSystem>())
+        foreach (ParticleSystem p in flashParticles.GetComponentsInChildren<ParticleSystem>())
         {
             secondaryParticles.Add(p);
-        }
+        } */
     }
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        /* if (Input.GetKeyDown(KeyCode.Space))
         {
             float time = Time.timeScale == 1 ? .2f : 1;
             Time.timeScale = time;
-        }
+        } */
 
         //Follow Collider
         transform.position = sphere.transform.position - new Vector3(0, 0.4f, 0);
@@ -91,36 +91,36 @@ public class KartController : MonoBehaviour
         }
 
         //Drift
-       /* if (Input.GetButtonDown("Jump") && !drifting && Input.GetAxis("Horizontal") != 0)
-        {
-            drifting = true;
-            driftDirection = Input.GetAxis("Horizontal") > 0 ? 1 : -1;
+        /* if (Input.GetButtonDown("Jump") && !drifting && Input.GetAxis("Horizontal") != 0)
+         {
+             drifting = true;
+             driftDirection = Input.GetAxis("Horizontal") > 0 ? 1 : -1;
 
-            foreach (ParticleSystem p in primaryParticles)
-            {
-                p.startColor = Color.clear;
-                p.Play();
-            }
+             foreach (ParticleSystem p in primaryParticles)
+             {
+                 p.startColor = Color.clear;
+                 p.Play();
+             }
 
-            kartModel.parent.DOComplete();
-            kartModel.parent.DOPunchPosition(transform.up * .2f, .3f, 5, 1);
+             kartModel.parent.DOComplete();
+             kartModel.parent.DOPunchPosition(transform.up * .2f, .3f, 5, 1);
 
-        }
+         }
 
-        if (drifting)
-        {
-            float control = (driftDirection == 1) ? ExtensionMethods.Remap(Input.GetAxis("Horizontal"), -1, 1, 0, 2) : ExtensionMethods.Remap(Input.GetAxis("Horizontal"), -1, 1, 2, 0);
-            float powerControl = (driftDirection == 1) ? ExtensionMethods.Remap(Input.GetAxis("Horizontal"), -1, 1, .2f, 1) : ExtensionMethods.Remap(Input.GetAxis("Horizontal"), -1, 1, 1, .2f);
-            Steer(driftDirection, control);
-            driftPower += powerControl;
+         if (drifting)
+         {
+             float control = (driftDirection == 1) ? ExtensionMethods.Remap(Input.GetAxis("Horizontal"), -1, 1, 0, 2) : ExtensionMethods.Remap(Input.GetAxis("Horizontal"), -1, 1, 2, 0);
+             float powerControl = (driftDirection == 1) ? ExtensionMethods.Remap(Input.GetAxis("Horizontal"), -1, 1, .2f, 1) : ExtensionMethods.Remap(Input.GetAxis("Horizontal"), -1, 1, 1, .2f);
+             Steer(driftDirection, control);
+             driftPower += powerControl;
 
-            ColorDrift();
-        }
+             ColorDrift();
+         }
 
-        if (Input.GetButtonUp("Jump") && drifting)
-        {
-            Boost();
-        } */
+         if (Input.GetButtonUp("Jump") && drifting)
+         {
+             Boost();
+         } */
 
         currentSpeed = Mathf.SmoothStep(currentSpeed, speed, Time.deltaTime * 12f); speed = 0f;
         currentRotate = Mathf.Lerp(currentRotate, rotate, Time.deltaTime * 4f); rotate = 0f;
@@ -128,7 +128,8 @@ public class KartController : MonoBehaviour
         //Animations    
 
         //a) Kart
-        if (!drifting)
+
+        /* if (!drifting)
         {
             kartModel.localEulerAngles = Vector3.Lerp(kartModel.localEulerAngles, new Vector3(0, 90 + (Input.GetAxis("Horizontal") * 15), kartModel.localEulerAngles.z), .2f);
         }
@@ -136,23 +137,23 @@ public class KartController : MonoBehaviour
         {
             float control = (driftDirection == 1) ? ExtensionMethods.Remap(Input.GetAxis("Horizontal"), -1, 1, .5f, 2) : ExtensionMethods.Remap(Input.GetAxis("Horizontal"), -1, 1, 2, .5f);
             kartModel.parent.localRotation = Quaternion.Euler(0, Mathf.LerpAngle(kartModel.parent.localEulerAngles.y,(control * 15) * driftDirection, .2f), 0);
-        }
+        } */
 
         //b) Wheels
-        frontWheels.localEulerAngles = new Vector3(0, (Input.GetAxis("Horizontal") * 15), frontWheels.localEulerAngles.z);
-        frontWheels.localEulerAngles += new Vector3(0, 0, sphere.velocity.magnitude/2);
-        backWheels.localEulerAngles += new Vector3(0, 0, sphere.velocity.magnitude/2);
+        /* frontWheels.localEulerAngles = new Vector3(0, (Input.GetAxis("Horizontal") * 15), frontWheels.localEulerAngles.z);
+        frontWheels.localEulerAngles += new Vector3(0, 0, sphere.velocity.magnitude / 2);
+        backWheels.localEulerAngles += new Vector3(0, 0, sphere.velocity.magnitude / 2); */
 
         //c) Steering Wheel
-        steeringWheel.localEulerAngles = new Vector3(-25, 90, ((Input.GetAxis("Horizontal") * 45)));
+       // steeringWheel.localEulerAngles = new Vector3(-25, 90, ((Input.GetAxis("Horizontal") * 45)));
 
     }
 
     private void FixedUpdate()
     {
         //Forward Acceleration
-        if(!drifting)
-            sphere.AddForce(-kartModel.transform.right * currentSpeed, ForceMode.Acceleration);
+        if (!drifting)
+            sphere.AddForce(-carCube.transform.right * currentSpeed, ForceMode.Acceleration);
         else
             sphere.AddForce(transform.forward * currentSpeed, ForceMode.Acceleration);
 
@@ -165,8 +166,8 @@ public class KartController : MonoBehaviour
         RaycastHit hitOn;
         RaycastHit hitNear;
 
-        Physics.Raycast(transform.position + (transform.up*.1f), Vector3.down, out hitOn, 1.1f,layerMask);
-        Physics.Raycast(transform.position + (transform.up * .1f)   , Vector3.down, out hitNear, 2.0f, layerMask);
+        Physics.Raycast(transform.position + (transform.up * .1f), Vector3.down, out hitOn, 1.1f, layerMask);
+        Physics.Raycast(transform.position + (transform.up * .1f), Vector3.down, out hitNear, 2.0f, layerMask);
 
         //Normal Rotation
         kartNormal.up = Vector3.Lerp(kartNormal.up, hitNear.normal, Time.deltaTime * 8.0f);
@@ -179,23 +180,23 @@ public class KartController : MonoBehaviour
 
         if (driftMode > 0)
         {
-            DOVirtual.Float(currentSpeed * 3, currentSpeed, .3f * driftMode, Speed);
-           // DOVirtual.Float(0, 1, .5f, ChromaticAmount).OnComplete(() => DOVirtual.Float(1, 0, .5f, ChromaticAmount));
-            kartModel.Find("Tube001").GetComponentInChildren<ParticleSystem>().Play();
-            kartModel.Find("Tube002").GetComponentInChildren<ParticleSystem>().Play();
+            //DOVirtual.Float(currentSpeed * 3, currentSpeed, .3f * driftMode, Speed);
+            // DOVirtual.Float(0, 1, .5f, ChromaticAmount).OnComplete(() => DOVirtual.Float(1, 0, .5f, ChromaticAmount));
+            /* kartModel.Find("Tube001").GetComponentInChildren<ParticleSystem>().Play();
+            kartModel.Find("Tube002").GetComponentInChildren<ParticleSystem>().Play(); */
         }
 
         driftPower = 0;
         driftMode = 0;
         first = false; second = false; third = false;
 
-        foreach (ParticleSystem p in primaryParticles)
+        /* foreach (ParticleSystem p in primaryParticles)
         {
             p.startColor = Color.clear;
             p.Stop();
-        }
+        } */
 
-        kartModel.parent.DOLocalRotate(Vector3.zero, .5f).SetEase(Ease.OutBack);
+        // kartModel.parent.DOLocalRotate(Vector3.zero, .5f).SetEase(Ease.OutBack);
 
     }
 
@@ -206,10 +207,10 @@ public class KartController : MonoBehaviour
 
     public void ColorDrift()
     {
-        if(!first)
+        if (!first)
             c = Color.clear;
 
-        if (driftPower > 50 && driftPower < 100-1 && !first)
+        if (driftPower > 50 && driftPower < 100 - 1 && !first)
         {
             first = true;
             c = turboColors[0];
@@ -218,7 +219,7 @@ public class KartController : MonoBehaviour
             PlayFlashParticle(c);
         }
 
-        if (driftPower > 100 && driftPower < 150- 1 && !second)
+        if (driftPower > 100 && driftPower < 150 - 1 && !second)
         {
             second = true;
             c = turboColors[1];
@@ -236,29 +237,29 @@ public class KartController : MonoBehaviour
             PlayFlashParticle(c);
         }
 
-        foreach (ParticleSystem p in primaryParticles)
+        /* foreach (ParticleSystem p in primaryParticles)
         {
             var pmain = p.main;
             pmain.startColor = c;
         }
 
-        foreach(ParticleSystem p in secondaryParticles)
+        foreach (ParticleSystem p in secondaryParticles)
         {
             var pmain = p.main;
             pmain.startColor = c;
-        }
+        } */
     }
 
     void PlayFlashParticle(Color c)
     {
         //GameObject.Find("CM vcam1").GetComponent<CinemachineImpulseSource>().GenerateImpulse();
 
-        foreach (ParticleSystem p in secondaryParticles)
+       /*  foreach (ParticleSystem p in secondaryParticles)
         {
             var pmain = p.main;
             pmain.startColor = c;
             p.Play();
-        }
+        } */
     }
 
     private void Speed(float x)
