@@ -1,0 +1,118 @@
+ffmpeg version git-2019-10-28-68f623d Copyright (c) 2000-2019 the FFmpeg developers
+  built with gcc 9.2.1 (GCC) 20191010
+  configuration: --enable-gpl --enable-version3 --enable-sdl2 --enable-fontconfig --enable-gnutls --enable-iconv --enable-libass --enable-libdav1d --enable-libbluray --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libtheora --enable-libtwolame --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libzimg --enable-lzma --enable-zlib --enable-gmp --enable-libvidstab --enable-libvorbis --enable-libvo-amrwbenc --enable-libmysofa --enable-libspeex --enable-libxvid --enable-libaom --enable-libmfx --enable-ffnvcodec --enable-cuvid --enable-d3d11va --enable-nvenc --enable-nvdec --enable-dxva2 --enable-avisynth --enable-libopenmpt --enable-amf
+  libavutil      56. 35.101 / 56. 35.101
+  libavcodec     58. 60.100 / 58. 60.100
+  libavformat    58. 33.100 / 58. 33.100
+  libavdevice    58.  9.100 / 58.  9.100
+  libavfilter     7. 65.100 /  7. 65.100
+  libswscale      5.  6.100 /  5.  6.100
+  libswresample   3.  6.100 /  3.  6.100
+  libpostproc    55.  6.100 / 55.  6.100
+Splitting the commandline.
+Reading option '-v' ... matched as option 'v' (set logging level) with argument 'debug'.
+Reading option '-nostdin' ... matched as option 'stdin' (enable or disable interaction on standard input) with argument 0.
+Reading option '-progress' ... matched as option 'progress' (write program-readable progress information) with argument 'C:/Users/teeja/AppData/Local/Temp/KritaFFmpegProgress.ZPoxjg'.
+Reading option '-r' ... matched as option 'r' (set frame rate (Hz value, fraction or abbreviation)) with argument '18'.
+Reading option '-start_number' ... matched as AVOption 'start_number' with argument '0'.
+Reading option '-i' ... matched as input url with argument 'D:/Pictures/[MyStuff]/[Art]/[Krita Files]/CAR-NAGE School Project/Sprites/Fast Enemy/pngs/FastEnemyAnim%04d.png'.
+Reading option '-vf' ... matched as option 'vf' (set video filters) with argument 'palettegen'.
+Reading option '-y' ... matched as option 'y' (overwrite output files) with argument '1'.
+Reading option 'D:/Pictures/[MyStuff]/[Art]/[Krita Files]/CAR-NAGE School Project/Sprites/Fast Enemy/palette.png' ... matched as output url.
+Finished splitting the commandline.
+Parsing a group of options: global .
+Applying option v (set logging level) with argument debug.
+Applying option nostdin (enable or disable interaction on standard input) with argument 0.
+Applying option progress (write program-readable progress information) with argument C:/Users/teeja/AppData/Local/Temp/KritaFFmpegProgress.ZPoxjg.
+[file @ 000001889521a540] Setting default whitelist 'file,crypto'
+Applying option y (overwrite output files) with argument 1.
+Successfully parsed a group of options.
+Parsing a group of options: input url D:/Pictures/[MyStuff]/[Art]/[Krita Files]/CAR-NAGE School Project/Sprites/Fast Enemy/pngs/FastEnemyAnim%04d.png.
+Applying option r (set frame rate (Hz value, fraction or abbreviation)) with argument 18.
+Successfully parsed a group of options.
+Opening an input file: D:/Pictures/[MyStuff]/[Art]/[Krita Files]/CAR-NAGE School Project/Sprites/Fast Enemy/pngs/FastEnemyAnim%04d.png.
+[image2 @ 000001889525b9c0] Opening 'D:/Pictures/[MyStuff]/[Art]/[Krita Files]/CAR-NAGE School Project/Sprites/Fast Enemy/pngs/FastEnemyAnim0000.png' for reading
+[file @ 000001889525f080] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0000018895267240] Statistics: 275678 bytes read, 0 seeks
+[image2 @ 000001889525b9c0] Opening 'D:/Pictures/[MyStuff]/[Art]/[Krita Files]/CAR-NAGE School Project/Sprites/Fast Enemy/pngs/FastEnemyAnim0001.png' for reading
+[file @ 000001889572dc00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001889572dd80] Statistics: 281052 bytes read, 0 seeks
+[image2 @ 000001889525b9c0] Opening 'D:/Pictures/[MyStuff]/[Art]/[Krita Files]/CAR-NAGE School Project/Sprites/Fast Enemy/pngs/FastEnemyAnim0002.png' for reading
+[file @ 000001889572dcc0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0000018895772a40] Statistics: 276344 bytes read, 0 seeks
+[image2 @ 000001889525b9c0] Opening 'D:/Pictures/[MyStuff]/[Art]/[Krita Files]/CAR-NAGE School Project/Sprites/Fast Enemy/pngs/FastEnemyAnim0003.png' for reading
+[file @ 000001889572dcc0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 00000188957b6400] Statistics: 278603 bytes read, 0 seeks
+[image2 @ 000001889525b9c0] Opening 'D:/Pictures/[MyStuff]/[Art]/[Krita Files]/CAR-NAGE School Project/Sprites/Fast Enemy/pngs/FastEnemyAnim0004.png' for reading
+[file @ 000001889572dcc0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 00000188952b4e00] Statistics: 279002 bytes read, 0 seeks
+[image2 @ 000001889525b9c0] Opening 'D:/Pictures/[MyStuff]/[Art]/[Krita Files]/CAR-NAGE School Project/Sprites/Fast Enemy/pngs/FastEnemyAnim0005.png' for reading
+[file @ 000001889572dcc0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 00000188952b4fc0] Statistics: 276812 bytes read, 0 seeks
+[image2 @ 000001889525b9c0] Opening 'D:/Pictures/[MyStuff]/[Art]/[Krita Files]/CAR-NAGE School Project/Sprites/Fast Enemy/pngs/FastEnemyAnim0006.png' for reading
+[file @ 000001889572dcc0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 00000188952b5180] Statistics: 276432 bytes read, 0 seeks
+Input #0, image2, from 'D:/Pictures/[MyStuff]/[Art]/[Krita Files]/CAR-NAGE School Project/Sprites/Fast Enemy/pngs/FastEnemyAnim%04d.png':
+  Duration: 00:00:00.28, start: 0.000000, bitrate: N/A
+    Stream #0:0, 7, 1/25: Video: png, 1 reference frame, rgba64be(pc), 480x150 [SAR 11811:11811 DAR 16:5], 0/1, 25 fps, 25 tbr, 25 tbn, 25 tbc
+Successfully opened the file.
+Parsing a group of options: output url D:/Pictures/[MyStuff]/[Art]/[Krita Files]/CAR-NAGE School Project/Sprites/Fast Enemy/palette.png.
+Applying option vf (set video filters) with argument palettegen.
+Successfully parsed a group of options.
+Opening an output file: D:/Pictures/[MyStuff]/[Art]/[Krita Files]/CAR-NAGE School Project/Sprites/Fast Enemy/palette.png.
+Successfully opened the file.
+detected 12 logical cores
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> png (native))
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+    Last message repeated 7 times
+[graph 0 input from stream 0:0 @ 00000188957b63c0] Setting 'video_size' to value '480x150'
+[graph 0 input from stream 0:0 @ 00000188957b63c0] Setting 'pix_fmt' to value '106'
+[graph 0 input from stream 0:0 @ 00000188957b63c0] Setting 'time_base' to value '1/18'
+[graph 0 input from stream 0:0 @ 00000188957b63c0] Setting 'pixel_aspect' to value '11811/11811'
+[graph 0 input from stream 0:0 @ 00000188957b63c0] Setting 'sws_param' to value 'flags=2'
+[graph 0 input from stream 0:0 @ 00000188957b63c0] Setting 'frame_rate' to value '18/1'
+[graph 0 input from stream 0:0 @ 00000188957b63c0] w:480 h:150 pixfmt:rgba64be tb:1/18 fr:18/1 sar:11811/11811 sws_param:flags=2
+[format @ 00000188952b4d40] Setting 'pix_fmts' to value 'rgb24|rgba|rgb48be|rgba64be|pal8|gray|ya8|gray16be|ya16be|monob'
+[auto_scaler_0 @ 00000188956e1180] Setting 'flags' to value 'bicubic'
+[auto_scaler_0 @ 00000188956e1180] w:iw h:ih flags:'bicubic' interl:0
+[Parsed_palettegen_0 @ 0000018895d2dec0] auto-inserting filter 'auto_scaler_0' between the filter 'graph 0 input from stream 0:0' and the filter 'Parsed_palettegen_0'
+[auto_scaler_1 @ 00000188956ec240] Setting 'flags' to value 'bicubic'
+[auto_scaler_1 @ 00000188956ec240] w:iw h:ih flags:'bicubic' interl:0
+[format @ 00000188952b4d40] auto-inserting filter 'auto_scaler_1' between the filter 'Parsed_palettegen_0' and the filter 'format'
+[AVFilterGraph @ 0000018895772a40] query_formats: 4 queried, 1 merged, 2 already done, 0 delayed
+[auto_scaler_1 @ 00000188956ec240] picking rgba out of 10 ref:bgra alpha:1
+[swscaler @ 00000188956fc5c0] Forcing full internal H chroma due to input having non subsampled chroma
+[auto_scaler_0 @ 00000188956e1180] w:480 h:150 fmt:rgba64be sar:11811/11811 -> w:480 h:150 fmt:bgra sar:1/1 flags:0x4
+[swscaler @ 0000018895709500] Forcing full internal H chroma due to input having non subsampled chroma
+[auto_scaler_1 @ 00000188956ec240] w:16 h:16 fmt:bgra sar:1/1 -> w:16 h:16 fmt:rgba sar:1/1 flags:0x4
+Output #0, image2, to 'D:/Pictures/[MyStuff]/[Art]/[Krita Files]/CAR-NAGE School Project/Sprites/Fast Enemy/palette.png':
+  Metadata:
+    encoder         : Lavf58.33.100
+    Stream #0:0, 0, 1/18: Video: png, 1 reference frame, rgba, 16x16 [SAR 1:1 DAR 1:1], 0/1, q=2-31, 200 kb/s, 18 fps, 18 tbn, 18 tbc
+    Metadata:
+      encoder         : Lavc58.60.100 png
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+    Last message repeated 6 times
+[Parsed_palettegen_0 @ 0000018895d2dec0] 255(+1) colors generated out of 32592 colors; ratio=0.007824
+[Parsed_palettegen_0 @ 0000018895d2dec0] Dupped color: FF0A0D0C
+[Parsed_palettegen_0 @ 0000018895d2dec0] Dupped color: FF0E0F0F
+[Parsed_palettegen_0 @ 0000018895d2dec0] Dupped color: FF0F0F0F
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+Clipping frame in rate conversion by 0.000008
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[out_0_0 @ 0000018895264240] EOF on sink link out_0_0:default.
+No more output streams to write to, finishing.
+[image2 @ 00000188958e3900] Opening 'D:/Pictures/[MyStuff]/[Art]/[Krita Files]/CAR-NAGE School Project/Sprites/Fast Enemy/palette.png' for writing
+[file @ 00000188956ecf00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001889620f2c0] Statistics: 0 seeks, 1 writeouts
+frame=    1 fps=0.0 q=-0.0 Lsize=N/A time=00:00:00.05 bitrate=N/A speed= 1.3x    
+[AVIOContext @ 000001889525b880] Statistics: 0 seeks, 1 writeouts
+video:1kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+Input file #0 (D:/Pictures/[MyStuff]/[Art]/[Krita Files]/CAR-NAGE School Project/Sprites/Fast Enemy/pngs/FastEnemyAnim%04d.png):
+  Input stream #0:0 (video): 7 packets read (1943923 bytes); 7 frames decoded; 
+  Total: 7 packets (1943923 bytes) demuxed
+Output file #0 (D:/Pictures/[MyStuff]/[Art]/[Krita Files]/CAR-NAGE School Project/Sprites/Fast Enemy/palette.png):
+  Output stream #0:0 (video): 1 frames encoded; 1 packets muxed (992 bytes); 
+  Total: 1 packets (992 bytes) muxed
+7 frames successfully decoded, 0 decoding errors

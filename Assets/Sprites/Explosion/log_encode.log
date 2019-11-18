@@ -1,0 +1,239 @@
+ffmpeg version git-2019-10-28-68f623d Copyright (c) 2000-2019 the FFmpeg developers
+  built with gcc 9.2.1 (GCC) 20191010
+  configuration: --enable-gpl --enable-version3 --enable-sdl2 --enable-fontconfig --enable-gnutls --enable-iconv --enable-libass --enable-libdav1d --enable-libbluray --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libtheora --enable-libtwolame --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libzimg --enable-lzma --enable-zlib --enable-gmp --enable-libvidstab --enable-libvorbis --enable-libvo-amrwbenc --enable-libmysofa --enable-libspeex --enable-libxvid --enable-libaom --enable-libmfx --enable-ffnvcodec --enable-cuvid --enable-d3d11va --enable-nvenc --enable-nvdec --enable-dxva2 --enable-avisynth --enable-libopenmpt --enable-amf
+  libavutil      56. 35.101 / 56. 35.101
+  libavcodec     58. 60.100 / 58. 60.100
+  libavformat    58. 33.100 / 58. 33.100
+  libavdevice    58.  9.100 / 58.  9.100
+  libavfilter     7. 65.100 /  7. 65.100
+  libswscale      5.  6.100 /  5.  6.100
+  libswresample   3.  6.100 /  3.  6.100
+  libpostproc    55.  6.100 / 55.  6.100
+Splitting the commandline.
+Reading option '-v' ... matched as option 'v' (set logging level) with argument 'debug'.
+Reading option '-nostdin' ... matched as option 'stdin' (enable or disable interaction on standard input) with argument 0.
+Reading option '-progress' ... matched as option 'progress' (write program-readable progress information) with argument 'C:/Users/teeja/AppData/Local/Temp/KritaFFmpegProgress.wLvWBb'.
+Reading option '-r' ... matched as option 'r' (set frame rate (Hz value, fraction or abbreviation)) with argument '18'.
+Reading option '-start_number' ... matched as AVOption 'start_number' with argument '0'.
+Reading option '-i' ... matched as input url with argument 'D:/Pictures/[MyStuff]/[Art]/[Krita Files]/CAR-NAGE School Project/[exports]/explosion/explosion%04d.png'.
+Reading option '-crf' ... matched as AVOption 'crf' with argument '23'.
+Reading option '-preset' ... matched as AVOption 'preset' with argument 'medium'.
+Reading option '-profile:v' ... matched as option 'profile' (set profile) with argument 'baseline'.
+Reading option '-pix_fmt' ... matched as option 'pix_fmt' (set pixel format) with argument 'yuv420p'.
+Reading option '-y' ... matched as option 'y' (overwrite output files) with argument '1'.
+Reading option 'D:/Pictures/[MyStuff]/[Art]/[Krita Files]/CAR-NAGE School Project/[exports]/explosion/explosion.kra-autosave.mp4' ... matched as output url.
+Finished splitting the commandline.
+Parsing a group of options: global .
+Applying option v (set logging level) with argument debug.
+Applying option nostdin (enable or disable interaction on standard input) with argument 0.
+Applying option progress (write program-readable progress information) with argument C:/Users/teeja/AppData/Local/Temp/KritaFFmpegProgress.wLvWBb.
+[file @ 000002106eb6afc0] Setting default whitelist 'file,crypto'
+Applying option y (overwrite output files) with argument 1.
+Successfully parsed a group of options.
+Parsing a group of options: input url D:/Pictures/[MyStuff]/[Art]/[Krita Files]/CAR-NAGE School Project/[exports]/explosion/explosion%04d.png.
+Applying option r (set frame rate (Hz value, fraction or abbreviation)) with argument 18.
+Successfully parsed a group of options.
+Opening an input file: D:/Pictures/[MyStuff]/[Art]/[Krita Files]/CAR-NAGE School Project/[exports]/explosion/explosion%04d.png.
+[image2 @ 000002106ebabb80] Opening 'D:/Pictures/[MyStuff]/[Art]/[Krita Files]/CAR-NAGE School Project/[exports]/explosion/explosion0000.png' for reading
+[file @ 000002106ebaf280] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002106ebb7440] Statistics: 34839 bytes read, 0 seeks
+[image2 @ 000002106ebabb80] Opening 'D:/Pictures/[MyStuff]/[Art]/[Krita Files]/CAR-NAGE School Project/[exports]/explosion/explosion0001.png' for reading
+[file @ 000002106ebbff80] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002106ebca000] Statistics: 114648 bytes read, 0 seeks
+[image2 @ 000002106ebabb80] Opening 'D:/Pictures/[MyStuff]/[Art]/[Krita Files]/CAR-NAGE School Project/[exports]/explosion/explosion0002.png' for reading
+[file @ 000002106ebc0200] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002106ebca000] Statistics: 298967 bytes read, 0 seeks
+[image2 @ 000002106ebabb80] Opening 'D:/Pictures/[MyStuff]/[Art]/[Krita Files]/CAR-NAGE School Project/[exports]/explosion/explosion0003.png' for reading
+[file @ 000002106ebc03c0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002106ebca000] Statistics: 420608 bytes read, 0 seeks
+[image2 @ 000002106ebabb80] Opening 'D:/Pictures/[MyStuff]/[Art]/[Krita Files]/CAR-NAGE School Project/[exports]/explosion/explosion0004.png' for reading
+[file @ 000002106f206d80] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002106ebca000] Statistics: 488056 bytes read, 0 seeks
+[image2 @ 000002106ebabb80] Opening 'D:/Pictures/[MyStuff]/[Art]/[Krita Files]/CAR-NAGE School Project/[exports]/explosion/explosion0005.png' for reading
+[file @ 000002106ebc04c0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002106ebca000] Statistics: 488056 bytes read, 0 seeks
+[image2 @ 000002106ebabb80] Opening 'D:/Pictures/[MyStuff]/[Art]/[Krita Files]/CAR-NAGE School Project/[exports]/explosion/explosion0006.png' for reading
+[file @ 000002106ebc0640] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002106ebca000] Statistics: 541314 bytes read, 0 seeks
+[image2 @ 000002106ebabb80] Opening 'D:/Pictures/[MyStuff]/[Art]/[Krita Files]/CAR-NAGE School Project/[exports]/explosion/explosion0007.png' for reading
+[file @ 000002106ebc0800] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002106ebca000] Statistics: 541314 bytes read, 0 seeks
+[image2 @ 000002106ebabb80] Opening 'D:/Pictures/[MyStuff]/[Art]/[Krita Files]/CAR-NAGE School Project/[exports]/explosion/explosion0008.png' for reading
+[file @ 000002106ebc0980] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002106ebca000] Statistics: 542268 bytes read, 0 seeks
+[image2 @ 000002106ebabb80] Opening 'D:/Pictures/[MyStuff]/[Art]/[Krita Files]/CAR-NAGE School Project/[exports]/explosion/explosion0009.png' for reading
+[file @ 000002106ebc0b40] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002106ebca000] Statistics: 542268 bytes read, 0 seeks
+[image2 @ 000002106ebabb80] Opening 'D:/Pictures/[MyStuff]/[Art]/[Krita Files]/CAR-NAGE School Project/[exports]/explosion/explosion0010.png' for reading
+[file @ 000002106ebc14c0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002106ebca000] Statistics: 560429 bytes read, 0 seeks
+[image2 @ 000002106ebabb80] Opening 'D:/Pictures/[MyStuff]/[Art]/[Krita Files]/CAR-NAGE School Project/[exports]/explosion/explosion0011.png' for reading
+[file @ 000002106ebc1680] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002106ebca000] Statistics: 560429 bytes read, 0 seeks
+[image2 @ 000002106ebabb80] Probe buffer size limit of 5000000 bytes reached
+Input #0, image2, from 'D:/Pictures/[MyStuff]/[Art]/[Krita Files]/CAR-NAGE School Project/[exports]/explosion/explosion%04d.png':
+  Duration: 00:00:01.08, start: 0.000000, bitrate: N/A
+    Stream #0:0, 12, 1/25: Video: png, 1 reference frame, rgba(pc), 564x594 [SAR 11811:11811 DAR 94:99], 0/1, 25 fps, 25 tbr, 25 tbn, 25 tbc
+Successfully opened the file.
+Parsing a group of options: output url D:/Pictures/[MyStuff]/[Art]/[Krita Files]/CAR-NAGE School Project/[exports]/explosion/explosion.kra-autosave.mp4.
+Applying option profile:v (set profile) with argument baseline.
+Applying option pix_fmt (set pixel format) with argument yuv420p.
+Successfully parsed a group of options.
+Opening an output file: D:/Pictures/[MyStuff]/[Art]/[Krita Files]/CAR-NAGE School Project/[exports]/explosion/explosion.kra-autosave.mp4.
+[file @ 000002106f6416c0] Setting default whitelist 'file,crypto'
+Successfully opened the file.
+detected 12 logical cores
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> h264 (libx264))
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+    Last message repeated 12 times
+[image2 @ 000002106ebabb80] Opening 'D:/Pictures/[MyStuff]/[Art]/[Krita Files]/CAR-NAGE School Project/[exports]/explosion/explosion0012.png' for reading
+[file @ 000002106ebc14c0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002106ebc0440] Statistics: 439204 bytes read, 0 seeks
+[graph 0 input from stream 0:0 @ 000002106ebc0b40] Setting 'video_size' to value '564x594'
+[graph 0 input from stream 0:0 @ 000002106ebc0b40] Setting 'pix_fmt' to value '26'
+[graph 0 input from stream 0:0 @ 000002106ebc0b40] Setting 'time_base' to value '1/18'
+[graph 0 input from stream 0:0 @ 000002106ebc0b40] Setting 'pixel_aspect' to value '11811/11811'
+[graph 0 input from stream 0:0 @ 000002106ebc0b40] Setting 'sws_param' to value 'flags=2'
+[graph 0 input from stream 0:0 @ 000002106ebc0b40] Setting 'frame_rate' to value '18/1'
+[graph 0 input from stream 0:0 @ 000002106ebc0b40] w:564 h:594 pixfmt:rgba tb:1/18 fr:18/1 sar:11811/11811 sws_param:flags=2
+[format @ 000002106ebc0440] Setting 'pix_fmts' to value 'yuv420p'
+[auto_scaler_0 @ 000002106ebc6a00] Setting 'flags' to value 'bicubic'
+[auto_scaler_0 @ 000002106ebc6a00] w:iw h:ih flags:'bicubic' interl:0
+[format @ 000002106ebc0440] auto-inserting filter 'auto_scaler_0' between the filter 'Parsed_null_0' and the filter 'format'
+[AVFilterGraph @ 000002106ec30280] query_formats: 4 queried, 2 merged, 1 already done, 0 delayed
+[auto_scaler_0 @ 000002106ebc6a00] w:564 h:594 fmt:rgba sar:11811/11811 -> w:564 h:594 fmt:yuv420p sar:1/1 flags:0x4
+[libx264 @ 000002106f640580] using mv_range_thread = 24
+[libx264 @ 000002106f640580] using SAR=1/1
+[libx264 @ 000002106f640580] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[libx264 @ 000002106f640580] profile Constrained Baseline, level 3.0, 4:2:0, 8-bit
+[libx264 @ 000002106f640580] 264 - core 158 - H.264/MPEG-4 AVC codec - Copyleft 2003-2019 - http://www.videolan.org/x264.html - options: cabac=0 ref=3 deblock=1:0:0 analyse=0x1:0x111 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=0 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=18 lookahead_threads=3 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=0 weightp=0 keyint=250 keyint_min=18 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to 'D:/Pictures/[MyStuff]/[Art]/[Krita Files]/CAR-NAGE School Project/[exports]/explosion/explosion.kra-autosave.mp4':
+  Metadata:
+    encoder         : Lavf58.33.100
+    Stream #0:0, 0, 1/18432: Video: h264 (libx264), 1 reference frame (avc1 / 0x31637661), yuv420p, 564x594 [SAR 1:1 DAR 94:99], 0/1, q=-1--1, 18 fps, 18432 tbn, 18 tbc
+    Metadata:
+      encoder         : Lavc58.60.100 libx264
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+Clipping frame in rate conversion by 0.000008
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002106ebabb80] Opening 'D:/Pictures/[MyStuff]/[Art]/[Krita Files]/CAR-NAGE School Project/[exports]/explosion/explosion0013.png' for reading
+[file @ 0000021072a06500] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002106f6a69c0] Statistics: 439204 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002106ebabb80] Opening 'D:/Pictures/[MyStuff]/[Art]/[Krita Files]/CAR-NAGE School Project/[exports]/explosion/explosion0014.png' for reading
+[file @ 0000021072a09d80] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002106f6a69c0] Statistics: 399102 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002106ebabb80] Opening 'D:/Pictures/[MyStuff]/[Art]/[Krita Files]/CAR-NAGE School Project/[exports]/explosion/explosion0015.png' for reading
+[file @ 0000021072a09c40] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002106f6a69c0] Statistics: 399102 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002106ebabb80] Opening 'D:/Pictures/[MyStuff]/[Art]/[Krita Files]/CAR-NAGE School Project/[exports]/explosion/explosion0016.png' for reading
+[file @ 0000021072a09b40] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002106f6a69c0] Statistics: 360563 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002106ebabb80] Opening 'D:/Pictures/[MyStuff]/[Art]/[Krita Files]/CAR-NAGE School Project/[exports]/explosion/explosion0017.png' for reading
+[file @ 0000021072a09d80] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002106f6a69c0] Statistics: 360563 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002106ebabb80] Opening 'D:/Pictures/[MyStuff]/[Art]/[Krita Files]/CAR-NAGE School Project/[exports]/explosion/explosion0018.png' for reading
+[file @ 0000021072a0a0c0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002106ebc02c0] Statistics: 301700 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002106ebabb80] Opening 'D:/Pictures/[MyStuff]/[Art]/[Krita Files]/CAR-NAGE School Project/[exports]/explosion/explosion0019.png' for reading
+[file @ 0000021072a09900] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002106ebc02c0] Statistics: 301700 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002106ebabb80] Opening 'D:/Pictures/[MyStuff]/[Art]/[Krita Files]/CAR-NAGE School Project/[exports]/explosion/explosion0020.png' for reading
+[file @ 0000021072a0a300] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002106ebc02c0] Statistics: 232916 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002106ebabb80] Opening 'D:/Pictures/[MyStuff]/[Art]/[Krita Files]/CAR-NAGE School Project/[exports]/explosion/explosion0021.png' for reading
+[file @ 0000021072a09d80] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002106ebc02c0] Statistics: 232916 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002106ebabb80] Opening 'D:/Pictures/[MyStuff]/[Art]/[Krita Files]/CAR-NAGE School Project/[exports]/explosion/explosion0022.png' for reading
+[file @ 0000021072a096c0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002106ebc02c0] Statistics: 171526 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002106ebabb80] Opening 'D:/Pictures/[MyStuff]/[Art]/[Krita Files]/CAR-NAGE School Project/[exports]/explosion/explosion0023.png' for reading
+[file @ 0000021072a0a300] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002106ebc02c0] Statistics: 171526 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002106ebabb80] Opening 'D:/Pictures/[MyStuff]/[Art]/[Krita Files]/CAR-NAGE School Project/[exports]/explosion/explosion0024.png' for reading
+[file @ 0000021072a09900] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002106ebc02c0] Statistics: 5948 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002106ebabb80] Opening 'D:/Pictures/[MyStuff]/[Art]/[Krita Files]/CAR-NAGE School Project/[exports]/explosion/explosion0025.png' for reading
+[file @ 0000021072a09d80] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002106ebc02c0] Statistics: 5948 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002106ebabb80] Opening 'D:/Pictures/[MyStuff]/[Art]/[Krita Files]/CAR-NAGE School Project/[exports]/explosion/explosion0026.png' for reading
+[file @ 0000021072a09fc0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002106ebc02c0] Statistics: 5948 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+    Last message repeated 13 times
+[out_0_0 @ 000002106ebc0640] EOF on sink link out_0_0:default.
+No more output streams to write to, finishing.
+[libx264 @ 000002106f640580] scene cut at 2 Icost:698270 Pcost:688388 ratio:0.0142 bias:0.0250 gop:2 (imb:684 pmb:540)
+[libx264 @ 000002106f640580] scene cut at 3 Icost:804451 Pcost:792629 ratio:0.0147 bias:0.0250 gop:3 (imb:913 pmb:311)
+    Last message repeated 1 times
+[libx264 @ 000002106f640580] scene cut at 4 Icost:787829 Pcost:768817 ratio:0.0241 bias:0.0250 gop:4 (imb:896 pmb:328)
+    Last message repeated 1 times
+[libx264 @ 000002106f640580] scene cut at 6 Icost:720122 Pcost:710325 ratio:0.0136 bias:0.0333 gop:6 (imb:936 pmb:288)
+[libx264 @ 000002106f640580] scene cut at 8 Icost:492488 Pcost:486843 ratio:0.0115 bias:0.0444 gop:8 (imb:986 pmb:238)
+[libx264 @ 000002106f640580] scene cut at 10 Icost:423412 Pcost:414604 ratio:0.0208 bias:0.0556 gop:10 (imb:977 pmb:247)
+[libx264 @ 000002106f640580] scene cut at 12 Icost:183491 Pcost:181939 ratio:0.0085 bias:0.0667 gop:12 (imb:1070 pmb:154)
+[libx264 @ 000002106f640580] scene cut at 14 Icost:153176 Pcost:145781 ratio:0.0483 bias:0.0778 gop:14 (imb:800 pmb:424)
+[libx264 @ 000002106f640580] scene cut at 16 Icost:132603 Pcost:126286 ratio:0.0476 bias:0.0889 gop:16 (imb:699 pmb:525)
+[libx264 @ 000002106f640580] scene cut at 18 Icost:118857 Pcost:112388 ratio:0.0544 bias:0.1000 gop:18 (imb:648 pmb:576)
+[libx264 @ 000002106f640580] frame=   0 QP=10.46 NAL=3 Slice:I Poc:0   I:1368 P:0    SKIP:0    size=3762 bytes
+[libx264 @ 000002106f640580] frame=   1 QP=20.39 NAL=2 Slice:P Poc:2   I:276  P:9    SKIP:1083 size=12712 bytes
+[libx264 @ 000002106f640580] frame=   2 QP=17.88 NAL=2 Slice:I Poc:4   I:1368 P:0    SKIP:0    size=43161 bytes
+[libx264 @ 000002106f640580] frame=   3 QP=20.33 NAL=2 Slice:I Poc:6   I:1368 P:0    SKIP:0    size=46218 bytes
+[libx264 @ 000002106f640580] frame=   4 QP=19.10 NAL=2 Slice:I Poc:8   I:1368 P:0    SKIP:0    size=57413 bytes
+[libx264 @ 000002106f640580] frame=   5 QP=14.35 NAL=2 Slice:P Poc:10  I:4    P:15   SKIP:1349 size=79 bytes
+[libx264 @ 000002106f640580] frame=   6 QP=18.28 NAL=2 Slice:I Poc:12  I:1368 P:0    SKIP:0    size=62809 bytes
+[libx264 @ 000002106f640580] frame=   7 QP=16.27 NAL=2 Slice:P Poc:14  I:2    P:8    SKIP:1358 size=53 bytes
+[libx264 @ 000002106f640580] frame=   8 QP=17.55 NAL=2 Slice:I Poc:16  I:1368 P:0    SKIP:0    size=51691 bytes
+[libx264 @ 000002106f640580] frame=   9 QP=12.00 NAL=2 Slice:P Poc:18  I:0    P:3    SKIP:1365 size=19 bytes
+[libx264 @ 000002106f640580] frame=  10 QP=17.75 NAL=2 Slice:I Poc:20  I:1368 P:0    SKIP:0    size=46508 bytes
+[libx264 @ 000002106f640580] frame=  11 QP=16.38 NAL=2 Slice:P Poc:22  I:0    P:16   SKIP:1352 size=52 bytes
+[libx264 @ 000002106f640580] frame=  12 QP=15.34 NAL=2 Slice:I Poc:24  I:1368 P:0    SKIP:0    size=20381 bytes
+[libx264 @ 000002106f640580] frame=  13 QP=19.28 NAL=2 Slice:P Poc:26  I:1    P:44   SKIP:1323 size=129 bytes
+[libx264 @ 000002106f640580] frame=  14 QP=14.61 NAL=2 Slice:I Poc:28  I:1368 P:0    SKIP:0    size=16890 bytes
+[libx264 @ 000002106f640580] frame=  15 QP=21.42 NAL=2 Slice:P Poc:30  I:0    P:40   SKIP:1328 size=122 bytes
+[libx264 @ 000002106f640580] frame=  16 QP=13.74 NAL=2 Slice:I Poc:32  I:1368 P:0    SKIP:0    size=14110 bytes
+[libx264 @ 000002106f640580] frame=  17 QP=21.41 NAL=2 Slice:P Poc:34  I:0    P:26   SKIP:1342 size=89 bytes
+[libx264 @ 000002106f640580] frame=  18 QP=12.81 NAL=3 Slice:I Poc:0   I:1368 P:0    SKIP:0    size=14028 bytes
+[libx264 @ 000002106f640580] frame=  19 QP=16.45 NAL=2 Slice:P Poc:2   I:1    P:19   SKIP:1348 size=66 bytes
+[libx264 @ 000002106f640580] frame=  20 QP=17.65 NAL=2 Slice:P Poc:4   I:160  P:287  SKIP:921  size=4931 bytes
+[libx264 @ 000002106f640580] frame=  21 QP=20.48 NAL=2 Slice:P Poc:6   I:1    P:74   SKIP:1293 size=177 bytes
+[libx264 @ 000002106f640580] frame=  22 QP=18.18 NAL=2 Slice:P Poc:8   I:185  P:311  SKIP:872  size=3782 bytes
+[libx264 @ 000002106f640580] frame=  23 QP=12.16 NAL=2 Slice:P Poc:10  I:4    P:39   SKIP:1325 size=113 bytes
+[libx264 @ 000002106f640580] frame=  24 QP=8.00 NAL=2 Slice:P Poc:12  I:331  P:3    SKIP:1034 size=408 bytes
+[libx264 @ 000002106f640580] frame=  25 QP=11.00 NAL=2 Slice:P Poc:14  I:0    P:0    SKIP:1368 size=11 bytes
+[libx264 @ 000002106f640580] frame=  26 QP=12.00 NAL=2 Slice:P Poc:16  I:0    P:0    SKIP:1368 size=11 bytes
+frame=   27 fps=0.0 q=-1.0 Lsize=     392kB time=00:00:01.44 bitrate=2222.4kbits/s speed=4.98x    
+[AVIOContext @ 000002106ebaba40] Statistics: 0 seeks, 1 writeouts
+video:391kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.236799%
+Input file #0 (D:/Pictures/[MyStuff]/[Art]/[Krita Files]/CAR-NAGE School Project/[exports]/explosion/explosion%04d.png):
+  Input stream #0:0 (video): 27 packets read (8961062 bytes); 27 frames decoded; 
+  Total: 27 packets (8961062 bytes) demuxed
+Output file #0 (D:/Pictures/[MyStuff]/[Art]/[Krita Files]/CAR-NAGE School Project/[exports]/explosion/explosion.kra-autosave.mp4):
+  Output stream #0:0 (video): 27 frames encoded; 27 packets muxed (400340 bytes); 
+  Total: 27 packets (400340 bytes) muxed
+27 frames successfully decoded, 0 decoding errors
+[AVIOContext @ 000002106f681800] Statistics: 2 seeks, 5 writeouts
+[libx264 @ 000002106f640580] frame I:11    Avg QP:16.17  size: 34270
+[libx264 @ 000002106f640580] frame P:16    Avg QP:16.09  size:  1422
+[libx264 @ 000002106f640580] mb I  I16..4: 74.1%  0.0% 25.9%
+[libx264 @ 000002106f640580] mb P  I16..4:  3.3%  0.0%  1.1%  P16..4:  3.2%  0.6%  0.3%  0.0%  0.0%    skip:91.5%
+[libx264 @ 000002106f640580] coded y,uvDC,uvAC intra: 39.1% 45.8% 35.8% inter: 0.7% 1.9% 0.2%
+[libx264 @ 000002106f640580] i16 v,h,dc,p: 70%  3%  9% 18%
+[libx264 @ 000002106f640580] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 16% 12% 36%  8%  6%  6%  6%  5%  5%
+[libx264 @ 000002106f640580] i8c dc,h,v,p: 68%  9% 10% 14%
+[libx264 @ 000002106f640580] ref P L0: 81.7% 10.6%  7.7%
+[libx264 @ 000002106f640580] kb/s:2131.87
