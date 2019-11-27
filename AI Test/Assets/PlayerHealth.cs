@@ -36,6 +36,7 @@ public class PlayerHealth : MonoBehaviour
 
     void Update()
     {
+        Debug.Log(currentHealth);
         // If the player has just been damaged...
         if (damaged)
         {
