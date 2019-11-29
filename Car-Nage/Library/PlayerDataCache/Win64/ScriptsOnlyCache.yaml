@@ -14,14 +14,11 @@ ScriptsOnlyBuild:
     - KartController
     - PlayerHealth
     - PostGameText
-    - Rotator
     - SceneRestart
     - ScoreManager
     - ScoreUpdater
     - TimeScript
     - Timer
-    - fuelTank
-    - gunBox
     - newCamBehav
     GitHub.Unity.45.dll:
     - GitHub.Unity.ApplicationCache
@@ -62,7 +59,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
   sceneClasses:
-    Assets/Scenes/devMapv3.unity:
+    Assets/Scenes/Playground.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -110,73 +107,67 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9424}
     - Class: 114
-      Script: {instanceID: 9444}
-    - Class: 114
       Script: {instanceID: 9452}
     - Class: 114
       Script: {instanceID: 9456}
     - Class: 114
-      Script: {instanceID: 9506}
+      Script: {instanceID: 9508}
     - Class: 114
-      Script: {instanceID: 9546}
+      Script: {instanceID: 9548}
     - Class: 114
-      Script: {instanceID: 9552}
+      Script: {instanceID: 9554}
     - Class: 114
-      Script: {instanceID: 9558}
+      Script: {instanceID: 9560}
     - Class: 114
-      Script: {instanceID: 9566}
+      Script: {instanceID: 9568}
     - Class: 114
-      Script: {instanceID: 9602}
+      Script: {instanceID: 9604}
     - Class: 114
-      Script: {instanceID: 9782}
+      Script: {instanceID: 9784}
     - Class: 114
-      Script: {instanceID: 9828}
+      Script: {instanceID: 9830}
     - Class: 114
-      Script: {instanceID: 9848}
+      Script: {instanceID: 9850}
     - Class: 114
-      Script: {instanceID: 9886}
+      Script: {instanceID: 9888}
     - Class: 114
-      Script: {instanceID: 9974}
+      Script: {instanceID: 9976}
     - Class: 114
-      Script: {instanceID: 10246}
+      Script: {instanceID: 10248}
     - Class: 114
-      Script: {instanceID: 10316}
+      Script: {instanceID: 10318}
     - Class: 114
-      Script: {instanceID: 10402}
+      Script: {instanceID: 10404}
     - Class: 114
-      Script: {instanceID: 10438}
+      Script: {instanceID: 10440}
     - Class: 114
-      Script: {instanceID: 10448}
+      Script: {instanceID: 10450}
     - Class: 114
-      Script: {instanceID: 10476}
+      Script: {instanceID: 10478}
     - Class: 114
-      Script: {instanceID: 10568}
+      Script: {instanceID: 10570}
     - Class: 114
-      Script: {instanceID: 10606}
+      Script: {instanceID: 10608}
     - Class: 114
-      Script: {instanceID: 10630}
+      Script: {instanceID: 10632}
     - Class: 114
-      Script: {instanceID: 10656}
+      Script: {instanceID: 10658}
     - Class: 114
-      Script: {instanceID: 10740}
+      Script: {instanceID: 10742}
     - Class: 114
-      Script: {instanceID: 10872}
+      Script: {instanceID: 10874}
     - Class: 114
-      Script: {instanceID: 10882}
+      Script: {instanceID: 10884}
     - Class: 114
-      Script: {instanceID: 10886}
+      Script: {instanceID: 10928}
     - Class: 114
-      Script: {instanceID: 10926}
+      Script: {instanceID: 10960}
     - Class: 114
-      Script: {instanceID: 10958}
+      Script: {instanceID: 10974}
     - Class: 114
-      Script: {instanceID: 10972}
+      Script: {instanceID: 11022}
     - Class: 114
-      Script: {instanceID: 11000}
-    - Class: 114
-      Script: {instanceID: 11020}
-    - Class: 114
-      Script: {instanceID: 15046}
+      Script: {instanceID: 14202}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -270,6 +261,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: newCamBehav
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: KillFloor
   - hash:
       serializedVersion: 2
       Hash: 71f7f12b8d0f4fd73590db8bcb6d453c
@@ -1386,13 +1383,7 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: KillFloor
   platform: 19
   scenePathNames:
-  - Assets/Scenes/devMapv3.unity
-  playerPath: C:/Users/digit/Desktop/Car-Nage.exe
+  - Assets/Scenes/Playground.unity
+  playerPath: D:/Car-Nage.exe
