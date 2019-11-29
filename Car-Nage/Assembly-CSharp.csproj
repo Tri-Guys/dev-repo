@@ -79,6 +79,7 @@
     <Compile Include="Assets\Scripts\GUI\PostGameText.cs" />
     <Compile Include="Assets\Scripts\GUI\ScoreUpdater.cs" />
     <Compile Include="Assets\Scripts\GUI\ScoreUpdaterShadow.cs" />
+    <Compile Include="Assets\Scripts\KillFloor.cs" />
     <Compile Include="Assets\Scripts\Mechanics\PressAnyKey.cs" />
     <Compile Include="Assets\Scripts\Mechanics\SceneRestart.cs" />
     <Compile Include="Assets\Scripts\Mechanics\Timer.cs" />
