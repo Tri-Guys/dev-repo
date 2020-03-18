@@ -1,14 +1,14 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using System.Collections;
+
 
 public class EnemyAttack : MonoBehaviour
 {
-    public float timeBetweenAttacks = 2f;     // The time in seconds between each attack.
+    public float timeBetweenAttacks = 0.5f;     // The time in seconds between each attack.
     public int attackDamage = 10;               // The amount of health taken away per attack.
 
 
-    //Animator anim;                              // Reference to the animator component.
+    Animator anim;                              // Reference to the animator component.
     GameObject player;                          // Reference to the player GameObject.
     PlayerHealth playerHealth;                  // Reference to the player's health.
     EnemyHealth enemyHealth;                    // Reference to this enemy's health.
@@ -19,10 +19,10 @@ public class EnemyAttack : MonoBehaviour
     void Awake()
     {
         // Setting up the references.
-        player = GameObject.FindGameObjectWithTag("Player1");
+        player = GameObject.FindGameObjectWithTag("Player");
         playerHealth = player.GetComponent<PlayerHealth>();
         enemyHealth = GetComponent<EnemyHealth>();
-        //anim = GetComponent<Animator>();
+        anim = GetComponent<Animator>();
     }
 
 
@@ -64,7 +64,7 @@ public class EnemyAttack : MonoBehaviour
         if (playerHealth.currentHealth <= 0)
         {
             // ... tell the animator the player is dead.
-            //anim.SetTrigger("PlayerDead");
+            anim.SetTrigger("PlayerDead");
         }
     }
 
@@ -82,3 +82,4 @@ public class EnemyAttack : MonoBehaviour
         }
     }
 }
+
